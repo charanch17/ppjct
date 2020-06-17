@@ -1,0 +1,19 @@
+{
+  "name": "ppjct",
+  "version": "1.0.0",
+  "description": "small prjct to sell and buy books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charanch17/ppjct.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charanch17/ppjct/issues"
+  },
+  "homepage": "https://github.com/charanch17/ppjct#readme"
+}
