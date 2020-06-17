@@ -1,5 +1,251 @@
-<html>
-    <body>
-        <h1>hi</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>lets</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styler.css">
+
+    <link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules\bootstrap-social\bootstrap-social.css">
+</head>
+
+<body class="body">
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top navy">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand mr-auto" href="#"> <strong class=" text">CampusShelf</strong></a>
+            <img src="images/rectangle1.png" height="80" width="80" class="mr-auto">
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item "><i class=" fa fa-shopping-cart  fa-3x icon mr-4"></i>
+
+                    </li>
+                    <li class="nav-item"><a class="nav-link " href="#"><strong class="text">Home</strong></a>
+
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link " href="#"><strong class="text">Buy</strong></a>
+
+                    </li>
+
+                    <li class="nav-item "><a class="nav-link " href="#"><strong class="text">Sell</strong></a>
+
+                    </li>
+
+                    <li class="nav-item "><a class="nav-link " href="#"><strong class="text">Rent</strong></a>
+
+
+                    <li class="nav-item">
+
+                        <a class="btn" id="login"><strong class="text">login/signup</strong></a>
+
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+
+        </div>
+
+    </nav>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="content">
+
+            <div class="modal-content">
+                <div class="modal-header navy ">
+                    <h4 class="modal-title  text ">Login </h4>
+                    <button type="button" class="close " style="color: red;" id="lgc">&times;</button>
+                </div>
+                <div class="modal-body bdy">
+                    <div class="container">
+                        <form id="form1">
+                            <div class=" row form-group  ">
+
+                                <label class="col-sm-4  ">user id</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" type="text" placeholder="user id">
+
+                                </div>
+
+
+                            </div>
+                            <div class=" row form-group  ">
+
+                                <label class="col-sm-4  ">password</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" type="password" placeholder="password">
+
+                                </div>
+
+
+                            </div>
+                            <div class="row form-group">
+
+                                <div class="col-sm-4 offset-4">
+                                    <button type="submit" class="btn button "> <strong
+                                            style="color: whitesmoke;">login</strong></button>
+                                </div>
+
+                            </div>
+                            <div class="row form-group">
+
+                                <div class="col-sm-8">
+                                    <strong>Dont have account ?</strong>
+                                    <a class="btn" id="loginform"><strong class="ml-3"
+                                            style="color: crimson;">Signup</strong></a>
+                                </div>
+
+
+                            </div>
+
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="signupmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="content">
+
+            <div class="modal-content">
+                <div class="modal-header navy ">
+                    <h4 class="modal-title  text ">Signup</h4>
+                    <button type="button" class="close " style="color: red;" id="cut">&times;</button>
+                </div>
+                <div class="modal-body bdy">
+                    <div class="container">
+                        <form id="form2">
+                            <div class=" row form-group  ">
+
+                                <label class="col-sm-4  ">user id</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" type="text" placeholder="user id">
+
+                                </div>
+                            </div>
+                            <div class=" row form-group  ">
+
+                                <label class="col-sm-4  ">branch</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" type="text" placeholder="branch">
+
+                                </div>
+                            </div>
+                            <div class=" row form-group  ">
+
+                                <label class="col-sm-4  ">year</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" type="text" placeholder="year">
+
+                                </div>
+                            </div>
+                            <div class=" row form-group  ">
+
+                                <label class="col-sm-4  ">section</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" type="number" max="4" placeholder="section">
+
+                                </div>
+                            </div>
+                            <div class=" row form-group  ">
+
+                                <label class="col-sm-4  ">phone number</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" type="number" maxlength="10" minlength="10"
+                                        placeholder="phone number">
+
+                                </div>
+                            </div>
+                            <div class=" row form-group  ">
+
+                                <label class="col-sm-4  ">password</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" type="password" placeholder="password">
+
+                                </div>
+                            </div>
+                            <div class="row form-group">
+
+                                <div class="col-sm-4 offset-4">
+                                    <button type="submit" class="btn button "> <strong
+                                            style="color: whitesmoke;">login</strong></button>
+                                </div>
+
+                            </div>
+                            <div class="row form-group">
+
+                                <div class="col-sm-8">
+                                    <strong>Do have account ?</strong>
+                                    <a class="btn" id="signupform"><strong class="ml-3"
+                                            style="color: crimson;">login</strong></a>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </form>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                crossorigin="anonymous"></script>
+            <script>
+                $(document).ready(function () {
+
+                    $("#login").click(function () {
+                        $("#loginModal").modal("show");
+                    });
+                    $("#lgc").click(function () {
+                        $("#loginModal").modal("hide");
+                    });
+                    $("#cut").click(function () {
+                        $("#signupmodal").modal("hide");
+                    });
+                    $("#signupform").click(function () {
+                        $("#signupmodal").modal("hide");
+                        $("#loginModal").modal("show");
+
+                    });
+                    $("#loginform").click(function () {
+                        $("#loginModal").modal("hide");
+                        $("#signupmodal").modal("show");
+
+                    });
+                    
+
+
+                });
+            </script>
+</body>
+
 </html>

@@ -1,0 +1,20 @@
+.navy{
+    border:3px solid #00a8cc;padding-bottom:10px;
+    
+    height:90px;
+    background-color: #1d1919;
+   
+}
+.text{
+    font-family: serif;
+    font-size: x-large;
+    font-stretch: expanded;
+    color:#5fdde5;
+   
+}
+.icon{
+    color: #ff7c7c;
+}
+.button{
+    background-color: #1d1919;
+}
