@@ -5,6 +5,20 @@
     background-color: #1d1919;
    
 }
+
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
 .text{
     font-family: serif;
     font-size: x-large;
@@ -17,4 +31,35 @@
 }
 .button{
     background-color: #1d1919;
+    border-radius: 3px;
+}
+.carousel .carousel-item {
+    height: 300px;
+    margin-bottom: 10px;
+  
+}
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+.crd{
+    background-color:#1d1919 ;
+    border:3px solid #00a8cc;
+    border-radius: 15px;
+    min-height: 300px;
+    
+}
+.bodybtn{
+    margin-top: 30px;
+    background-color: #1d1919;
+    border: #00a8cc 3px solid;
+    border-radius: 25px;
+}
+.imgs{
+    border-radius: 50%;
+    border-color: #00a8cc;
+    max-height: 300px;
+    margin-top: 12px;
 }
