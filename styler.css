@@ -67,3 +67,13 @@
     max-height: 300px;
     margin-top: 12px;
 }
+
+#f2{
+    display: none;
+}
+#iml{
+    display: none;
+}
+#ll{
+    max-width: 80%;
+}
